@@ -1,0 +1,10 @@
+Heart Disease Predictor is an AI-powered, browser-based clinical risk assessment tool built with Python, Scikit-learn, and Streamlit — designed to predict the likelihood of heart disease based on key health parameters entered by the user.
+The app takes a set of medical inputs — including age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, resting ECG results, maximum heart rate, exercise-induced angina, ST depression, slope of the ST segment, number of major vessels, and thalassemia type — and instantly runs them through a trained machine learning classification model to produce a real-time prediction of whether the patient is at risk of heart disease or not.
+Under the hood, the model is trained on the widely used Cleveland Heart Disease Dataset from the UCI Machine Learning Repository, which contains clinical records from 303 patients. The dataset is preprocessed to handle feature scaling and encoding, and a classification algorithm — such as Logistic Regression, Random Forest, or Support Vector Machine — is trained and evaluated for accuracy before being serialized and loaded into the Streamlit app for live inference. The entire prediction pipeline runs server-side and delivers results in milliseconds directly in the browser.
+The interface is built using Streamlit, making it fully interactive with sliders, dropdowns, and input fields — no frontend coding required. The app is deployed and publicly accessible via Streamlit Cloud, meaning anyone with a browser can use it without installing anything. It is a strong end-to-end demonstration of the complete machine learning workflow: data preprocessing, model training, evaluation, serialization, and production deployment.
+
+⚠️ This tool is built for educational and demonstration purposes only. It is not a substitute for professional medical diagnosis or clinical advice.
+
+
+Tech Stack: Python · Scikit-learn · Pandas · NumPy · Streamlit · Streamlit Cloud
+Key Concepts: Binary Classification · Feature Engineering · Model Serialization · ML Deployment · Interactive UI · Healthcare AI
